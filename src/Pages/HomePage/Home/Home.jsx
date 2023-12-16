@@ -8,7 +8,7 @@ import Skill from "../Skill/Skill";
 
 const Home = () => {
     return (
-        <div>
+        <div id="home">
             <Navbar></Navbar>
             <Banner></Banner>
             <div id="about"><About></About></div>
