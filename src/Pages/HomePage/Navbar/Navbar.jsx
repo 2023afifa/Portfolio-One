@@ -11,10 +11,10 @@ const Navbar = () => {
                 </div>
                 <div className="flex-none navLink">
                     <ul className="menu menu-horizontal px-1 text-lg font-medium">
-                        <li><Link  to="home" spy={true} smooth={true} offset={50} duration={500} activeClass="active">Home</Link></li>
-                        <li><Link  to="about" spy={true} smooth={true} offset={50} duration={500} activeClass="active">About</Link></li>
-                        <li><Link  to="project" spy={true} smooth={true} offset={50} duration={500} activeClass="active">Projects</Link></li>
-                        <li><Link  to="contact" spy={true} smooth={true} offset={50} duration={500} activeClass="active">Contact</Link></li>
+                        <li><Link  to="/">Home</Link></li>
+                        <li><Link  to="about" spy={true} smooth={true} offset={-80} duration={500} activeClass="active">About</Link></li>
+                        <li><Link  to="project" spy={true} smooth={true} offset={-80} duration={500} activeClass="active">Projects</Link></li>
+                        <li><Link  to="contact" spy={true} smooth={true} offset={-80} duration={500} activeClass="active">Contact</Link></li>
                         <li><a  href="https://drive.google.com/uc?export=download&id=1fQwMDeDE5O64l0VKKVlUCkCz1Vp0aohK" download>Resume</a></li>
                     </ul>
                 </div>
