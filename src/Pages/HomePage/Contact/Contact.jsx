@@ -7,7 +7,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('service_ta5rtrb', 'template_n8hamd1', form.current, '299Nb49VjHqANC_y_')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -23,7 +23,7 @@ const Contact = () => {
                 <div className="hero-content">
                     <div>
                         <h2 className="text-3xl font-bold mt-10 mb-3 text-center">Contact</h2>
-                        <p className="mb-8 text-center">Feel free to reach out—I'd love to connect with you! Looking forward to hearing from you!</p>
+                        <p className="mb-8 text-center font-semibold">Feel free to reach out — I'd love to connect with you! Looking forward to hearing from you!</p>
                         <div className='flex justify-center'>
                             <form ref={form} onSubmit={sendEmail} className='w-2/3 mb-10'>
                                 <label className='mr-2 text-xl'>Name</label><br />
