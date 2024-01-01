@@ -1,6 +1,8 @@
 import { FaTelegram, FaLinkedinIn, FaGithub } from "react-icons/fa6";
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
+
     return (
         <div>
             <footer className="footer p-20 bg-black text-slate-200">
@@ -19,7 +21,7 @@ const Footer = () => {
             </footer>
             <footer className="footer footer-center p-10 bg-black text-slate-200">
                 <aside>
-                    <p>Copyright © 2023 - All right reserved by Afifa</p>
+                    <p>Copyright © {currentYear} - All right reserved by Afifa</p>
                 </aside>
             </footer>
         </div>
