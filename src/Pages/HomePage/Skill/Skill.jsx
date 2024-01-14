@@ -1,6 +1,6 @@
 const Skill = () => {
     return (
-        <div className="pt-16 lg:px-60 bg-gray-50">
+        <div className="pt-16 md:px-10 lg:px-60 bg-gray-50">
             <h2 className="text-3xl text-center font-semibold">My Skills</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 justify-center my-10">
                 <button className="text-lg bg-slate-200 px-5 py-2 rounded">HTML</button>
