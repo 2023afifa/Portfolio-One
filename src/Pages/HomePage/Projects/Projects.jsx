@@ -1,6 +1,6 @@
 const Projects = () => {
     return (
-        <div className="pt-32 pb-5 lg:px-20 bg-slate-50">
+        <div className="pt-32 pb-5 md:px-8 lg:px-20 bg-slate-50">
             <h2 className="text-3xl text-center font-semibold mb-10">My Projects</h2>
             <div className="hero bg-slate-200 py-20 mb-10">
                 <div className="hero-content flex-col lg:flex-row">
