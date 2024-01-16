@@ -2,7 +2,7 @@ const Projects = () => {
     return (
         <div className="pt-32 pb-5 md:px-8 lg:px-20 bg-slate-50">
             <h2 className="text-3xl text-center font-semibold mb-10">My Projects</h2>
-            <div className="hero bg-slate-200 py-20 mb-10">
+            <div className="hero bg-slate-200 py-5 lg:py-20 mb-10">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src="https://i.ibb.co/P1dSrf7/Project1.png" className="lg:max-w-xl rounded-lg shadow-2xl" />
                     <div>
@@ -12,7 +12,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="hero bg-slate-200 py-20 mb-10">
+            <div className="hero bg-slate-200 py-5 lg:py-20 mb-10">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src="https://i.ibb.co/CmXhFxK/Project2.png" className="lg:max-w-xl rounded-lg shadow-2xl" />
                     <div>
@@ -22,7 +22,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="hero bg-slate-200 py-20 mb-10">
+            <div className="hero bg-slate-200 py-5 lg:py-20 mb-10">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src="https://i.ibb.co/0CLP7FX/Project3.png" className="lg:max-w-xl rounded-lg shadow-2xl" />
                     <div>
