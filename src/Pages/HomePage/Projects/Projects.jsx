@@ -1,34 +1,45 @@
 const Projects = () => {
     return (
         <div className="pt-32 pb-5 md:px-8 lg:px-20 bg-slate-50">
-            <h2 className="text-3xl text-center font-semibold mb-10">My Projects</h2>
-            <div className="hero bg-slate-200 py-5 lg:py-20 mb-10">
-                <div className="hero-content flex-col lg:flex-row">
-                    <img src="https://i.ibb.co/P1dSrf7/Project1.png" className="lg:max-w-xl rounded-lg shadow-2xl" />
+            <h2 className="text-3xl text-center font-semibold mb-5">My Projects</h2>
+            <p className="mb-10 text-center font-semibold text-xl">See some of my projects here</p>
+            <div className="hero bg-slate-200 py-5 lg:py-10 mb-10">
+                <div className="hero-content flex-col lg:flex-row gap-10 lg:px-10">
+                    <img src="https://i.ibb.co/xfbkyXj/Screenshot-2024-03-06-190807.png" className="lg:max-w-2xl rounded-sm shadow-2xl" />
                     <div>
-                        <h1 className="text-5xl font-bold">SkillNest Academy</h1>
-                        <p className="py-6">SkillNest Academy is your gateway to acquiring new skills. Dive into a world of online courses where you can master web development, digital marketing, graphic design, data science, and language learning. Elevate your expertise and embrace a future filled with opportunities.</p>
-                        {/* <button className="btn bg-slate-50">See Details</button> */}
+                        <h1 className="text-3xl font-bold">Pet Zone</h1>
+                        <p className="py-6">Created an intuitive pet adoption and sales platform, offering users the ability to buy, sell, and discover pet accessories.</p>
+                        <button className="btn bg-cyan-500 text-white rounded-sm">See details</button>
                     </div>
                 </div>
             </div>
-            <div className="hero bg-slate-200 py-5 lg:py-20 mb-10">
-                <div className="hero-content flex-col lg:flex-row">
-                    <img src="https://i.ibb.co/CmXhFxK/Project2.png" className="lg:max-w-xl rounded-lg shadow-2xl" />
+            <div className="hero bg-slate-200 py-5 lg:py-10 mb-10">
+                <div className="hero-content flex-col lg:flex-row gap-10 lg:px-10">
+                    <img src="https://i.ibb.co/P1dSrf7/Project1.png" className="lg:max-w-2xl rounded-sm shadow-2xl" />
                     <div>
-                        <h1 className="text-5xl font-bold">ShareWithHeart</h1>
-                        <p className="py-6">ShareWithHeart is a community-driven platform committed to reducing food waste and fighting hunger. Join us in sharing surplus food with those in need. Together, we create a sustainable and compassionate network that nurtures our communities and fosters cooperation.</p>
-                        {/* <button className="btn bg-slate-50">See Details</button> */}
+                        <h1 className="text-3xl font-bold">SkillNest Academy</h1>
+                        <p className="py-6">SkillNest Academy is your gateway to acquiring new skills. Dive into a world of online courses where you can master web development, digital marketing, graphic design, data science, and language learning.</p>
+                        <button className="btn bg-cyan-500 text-white rounded-sm">See details</button>
                     </div>
                 </div>
             </div>
-            <div className="hero bg-slate-200 py-5 lg:py-20 mb-10">
-                <div className="hero-content flex-col lg:flex-row">
-                    <img src="https://i.ibb.co/0CLP7FX/Project3.png" className="lg:max-w-xl rounded-lg shadow-2xl" />
+            <div className="hero bg-slate-200 py-5 lg:py-10 mb-10">
+                <div className="hero-content flex-col lg:flex-row gap-10 lg:px-10">
+                    <img src="https://i.ibb.co/7xDYq8t/Screenshot-2024-03-06-213349.png" className="lg:max-w-2xl rounded-sm shadow-2xl" />
                     <div>
-                        <h1 className="text-5xl font-bold">Classy Closet</h1>
-                        <p className="py-6">ClassyCloset is your go-to destination for fashion and apparel. Discover curated collections of clothing, accessories, and more. Embrace style and sophistication as you explore our carefully selected pieces that define elegance and class in the world of fashion.</p>
-                        {/* <button className="btn bg-slate-50">See Details</button> */}
+                        <h1 className="text-3xl font-bold">ShareWithHeart</h1>
+                        <p className="py-6">ShareWithHeart is a community-driven platform committed to reducing food waste and fighting hunger.</p>
+                        <button className="btn bg-cyan-500 text-white rounded-sm">See details</button>
+                    </div>
+                </div>
+            </div>
+            <div className="hero bg-slate-200 py-5 lg:py-10 mb-10">
+                <div className="hero-content flex-col lg:flex-row gap-10 lg:px-10">
+                    <img src="https://i.ibb.co/TR2k4D3/Screenshot-2024-03-06-213458.png" className="lg:max-w-2xl rounded-sm shadow-2xl" />
+                    <div>
+                        <h1 className="text-3xl font-bold">Classy Closet</h1>
+                        <p className="py-6">ClassyCloset is your go-to destination for fashion and apparel. Discover curated collections of clothing, accessories, and more.</p>
+                        <button className="btn bg-cyan-500 text-white rounded-sm">See details</button>
                     </div>
                 </div>
             </div>

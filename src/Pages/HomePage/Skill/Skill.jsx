@@ -8,6 +8,7 @@ const Skill = () => {
                 <button className="text-lg bg-slate-200 px-5 py-2 rounded">Tailwind</button>
                 <button className="text-lg bg-slate-200 px-5 py-2 rounded">Javascript</button>
                 <button className="text-lg bg-slate-200 px-5 py-2 rounded">React</button>
+                <button className="text-lg bg-slate-200 px-5 py-2 rounded">NextJS</button>
                 <button className="text-lg bg-slate-200 px-5 py-2 rounded">Firebase</button>
                 <button className="text-lg bg-slate-200 px-5 py-2 rounded">MongoDB</button>
                 <button className="text-lg bg-slate-200 px-5 py-2 rounded">NodeJS</button>

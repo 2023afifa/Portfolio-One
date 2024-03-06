@@ -12,7 +12,7 @@ const About = () => {
                 <div>
                     <p className="text-2xl font-medium">North South University</p>
                     <p className="text-xl">Computer Science and Engineering</p>
-                    <p className="text-xl">2017-2021</p>
+                    {/* <p className="text-xl">2017-2021</p> */}
                 </div>
             </div>
         </div>
