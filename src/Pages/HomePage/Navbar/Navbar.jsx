@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="navbar md:px-5 lg:px-10 bg-slate-50 fixed z-10">
                 <div className="md:navbar-start">
                     <div className="flex-1">
-                        <h2 className="text-3xl font-bold">My Portfolio</h2>
+                        <h2 className="text-3xl font-bold">AFIFA ALAMGIR</h2>
                     </div>
                 </div>
                 <div className="md:hidden flex flex-grow justify-end">
