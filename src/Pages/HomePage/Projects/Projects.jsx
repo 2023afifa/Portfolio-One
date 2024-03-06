@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Projects = () => {
     return (
         <div className="pt-32 pb-5 md:px-8 lg:px-20 bg-slate-50">
@@ -9,7 +11,9 @@ const Projects = () => {
                     <div>
                         <h1 className="text-3xl font-bold">Pet Zone</h1>
                         <p className="py-6">Created an intuitive pet adoption and sales platform, offering users the ability to buy, sell, and discover pet accessories.</p>
-                        <button className="btn bg-cyan-500 text-white rounded-sm">See details</button>
+                        <Link to="/project1">
+                            <button className="btn bg-cyan-500 hover:bg-cyan-600 text-white rounded-sm">See details</button>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -19,7 +23,9 @@ const Projects = () => {
                     <div>
                         <h1 className="text-3xl font-bold">SkillNest Academy</h1>
                         <p className="py-6">SkillNest Academy is your gateway to acquiring new skills. Dive into a world of online courses where you can master web development, digital marketing, graphic design, data science, and language learning.</p>
-                        <button className="btn bg-cyan-500 text-white rounded-sm">See details</button>
+                        <Link to="/project2">
+                            <button className="btn bg-cyan-500 hover:bg-cyan-600 text-white rounded-sm">See details</button>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -29,7 +35,7 @@ const Projects = () => {
                     <div>
                         <h1 className="text-3xl font-bold">ShareWithHeart</h1>
                         <p className="py-6">ShareWithHeart is a community-driven platform committed to reducing food waste and fighting hunger.</p>
-                        <button className="btn bg-cyan-500 text-white rounded-sm">See details</button>
+                        <button className="btn bg-cyan-500 hover:bg-cyan-600 text-white rounded-sm">See details</button>
                     </div>
                 </div>
             </div>
@@ -39,7 +45,7 @@ const Projects = () => {
                     <div>
                         <h1 className="text-3xl font-bold">Classy Closet</h1>
                         <p className="py-6">ClassyCloset is your go-to destination for fashion and apparel. Discover curated collections of clothing, accessories, and more.</p>
-                        <button className="btn bg-cyan-500 text-white rounded-sm">See details</button>
+                        <button className="btn bg-cyan-500 hover:bg-cyan-600 text-white rounded-sm">See details</button>
                     </div>
                 </div>
             </div>
