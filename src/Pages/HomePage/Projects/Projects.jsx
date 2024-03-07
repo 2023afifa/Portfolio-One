@@ -19,11 +19,23 @@ const Projects = () => {
             </div>
             <div className="hero bg-slate-200 py-5 lg:py-10 mb-10">
                 <div className="hero-content flex-col lg:flex-row gap-10 lg:px-10">
+                    <img src="https://i.ibb.co/TR2k4D3/Screenshot-2024-03-06-213458.png" className="lg:max-w-2xl rounded-sm shadow-2xl" />
+                    <div>
+                        <h1 className="text-3xl font-bold">Classy Closet</h1>
+                        <p className="py-6">ClassyCloset is your go-to destination for fashion and apparel. Discover curated collections of clothing, accessories, and more.</p>
+                        <Link to="/project2">
+                            <button className="btn bg-cyan-500 hover:bg-cyan-600 text-white rounded-sm">See details</button>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+            <div className="hero bg-slate-200 py-5 lg:py-10 mb-10">
+                <div className="hero-content flex-col lg:flex-row gap-10 lg:px-10">
                     <img src="https://i.ibb.co/P1dSrf7/Project1.png" className="lg:max-w-2xl rounded-sm shadow-2xl" />
                     <div>
                         <h1 className="text-3xl font-bold">SkillNest Academy</h1>
                         <p className="py-6">SkillNest Academy is your gateway to acquiring new skills. Dive into a world of online courses where you can master web development, digital marketing, graphic design, data science, and language learning.</p>
-                        <Link to="/project2">
+                        <Link to="/project3">
                             <button className="btn bg-cyan-500 hover:bg-cyan-600 text-white rounded-sm">See details</button>
                         </Link>
                     </div>
@@ -35,17 +47,9 @@ const Projects = () => {
                     <div>
                         <h1 className="text-3xl font-bold">ShareWithHeart</h1>
                         <p className="py-6">ShareWithHeart is a community-driven platform committed to reducing food waste and fighting hunger.</p>
-                        <button className="btn bg-cyan-500 hover:bg-cyan-600 text-white rounded-sm">See details</button>
-                    </div>
-                </div>
-            </div>
-            <div className="hero bg-slate-200 py-5 lg:py-10 mb-10">
-                <div className="hero-content flex-col lg:flex-row gap-10 lg:px-10">
-                    <img src="https://i.ibb.co/TR2k4D3/Screenshot-2024-03-06-213458.png" className="lg:max-w-2xl rounded-sm shadow-2xl" />
-                    <div>
-                        <h1 className="text-3xl font-bold">Classy Closet</h1>
-                        <p className="py-6">ClassyCloset is your go-to destination for fashion and apparel. Discover curated collections of clothing, accessories, and more.</p>
-                        <button className="btn bg-cyan-500 hover:bg-cyan-600 text-white rounded-sm">See details</button>
+                        <Link to="/project4">
+                            <button className="btn bg-cyan-500 hover:bg-cyan-600 text-white rounded-sm">See details</button>
+                        </Link>
                     </div>
                 </div>
             </div>
