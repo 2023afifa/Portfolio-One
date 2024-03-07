@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
             <footer className="footer p-20 bg-black text-slate-200">
                 <aside>
-                    <p className="font-bold text-3xl">Afifa</p>
+                    <p className="font-bold text-3xl">Afifa Alamgir</p>
                     <p className="lg:max-w-xl">A frontend developer with a passion for crafting engaging user experiences through the art of coding</p>
                 </aside>
                 <nav>

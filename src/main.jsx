@@ -6,6 +6,7 @@ import Root from './Pages/Root/Root.jsx';
 import Home from './Pages/HomePage/Home/Home.jsx';
 import Project1 from './Pages/HomePage/ProjectDetails/Project1/Project1.jsx';
 import ErrorPage from './Pages/HomePage/ErrorPage/ErrorPage.jsx';
+import Project2 from './Pages/HomePage/ProjectDetails/Project2/Project2.jsx';
 
 
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/project1",
         element: <Project1></Project1>,
+      },
+      {
+        path: "/project2",
+        element: <Project2></Project2>,
       }
     ]
   },
