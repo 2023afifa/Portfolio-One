@@ -1,7 +1,8 @@
 const About = () => {
     return (
         <div className="pt-36 pb-5 lg:px-60 bg-slate-50">
-            <h2 className="text-3xl text-center font-semibold">About Me</h2>
+            <h2 className="text-3xl text-center font-semibold mb-3">About Me</h2>
+            <div className="bg-cyan-500 h-2 w-12 rounded-2xl mx-auto"></div>
             <p className="text-lg text-justify mx-5  md:mx-8 lg:mx-3 my-6">
                 Welcome to my corner of the web! I'm Afifa, an university graduate and an enthusiastic Junior Frontend Developer. My journey in the world of coding began with a fascination for transforming lines of code into captivating digital experiences. Armed with a solid foundation in HTML, CSS, and JavaScript, I've delved deeper into the realms of React, Firebase, MongoDB, Node.js, and Express.js, honing my skills to bring ideas to life.
 
