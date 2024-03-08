@@ -14,8 +14,8 @@ const Project1 = () => {
                     </div>
                 </div>
             </div>
-            <div className="m-20 flex lg:flex-row items-center gap-14">
-                <div className="w-1/2">
+            <div className="m-8 md:m-12 lg:m-20 flex flex-col-reverse lg:flex-row lg:items-center gap-5 lg:gap-14">
+                <div className="lg:w-1/2">
                     <h2 className="text-3xl font-semibold mb-5">Project Overview</h2>
                     <p className="text-justify">
                         It is a pet adoption website where you can find your new furry friend and shop for pet accessories. Our platform offers a special booking request feature for exclusive pets, allowing you to reserve them in advance. If you have any questions or need advice about your pet, our Helpdesk section is here to assist you.
@@ -26,12 +26,12 @@ const Project1 = () => {
                     </p>
                     <div className="my-10">
                         <h2 className="text-2xl font-semibold mb-5">Technologies Used</h2>
-                        <div className="space-x-3">
-                            <button className="text-lg bg-slate-200 px-5 py-2 rounded">NextJS</button>
-                            <button className="text-lg bg-slate-200 px-5 py-2 rounded">Firebase</button>
-                            <button className="text-lg bg-slate-200 px-5 py-2 rounded">MongoDB</button>
-                            <button className="text-lg bg-slate-200 px-5 py-2 rounded">NodeJS</button>
-                            <button className="text-lg bg-slate-200 px-5 py-2 rounded">ExpressJS</button>
+                        <div className="md:space-x-3 space-y-3">
+                            <button className="text-lg bg-slate-200 px-5 py-2 mr-1 md:mr-0 rounded">NextJS</button>
+                            <button className="text-lg bg-slate-200 px-5 py-2 mr-1 md:mr-0 rounded">Firebase</button>
+                            <button className="text-lg bg-slate-200 px-5 py-2 mr-1 md:mr-0 rounded">MongoDB</button>
+                            <button className="text-lg bg-slate-200 px-5 py-2 mr-1 md:mr-0 rounded">NodeJS</button>
+                            <button className="text-lg bg-slate-200 px-5 py-2 mr-1 md:mr-0 rounded">ExpressJS</button>
                         </div>
                     </div>
                     <div>
@@ -41,7 +41,7 @@ const Project1 = () => {
                         </a>
                     </div>
                 </div>
-                <div className="w-2/5">
+                <div className="lg:w-2/5">
                     <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/xfbkyXj/Screenshot-2024-03-06-190807.png" alt="" />
                     <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/HxJxd6y/Project-1-b.png" alt="" />
                     <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/PQ3FVr9/Project-1-c.png" alt="" />
