@@ -8,6 +8,7 @@ import Project1 from './Pages/HomePage/ProjectDetails/Project1/Project1.jsx';
 import ErrorPage from './Pages/HomePage/ErrorPage/ErrorPage.jsx';
 import Project2 from './Pages/HomePage/ProjectDetails/Project2/Project2.jsx';
 import Project3 from './Pages/HomePage/ProjectDetails/Project3/Project3.jsx';
+import Project4 from './Pages/HomePage/ProjectDetails/Project4/Project4.jsx';
 
 
 
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/project3",
         element: <Project3></Project3>,
+      },
+      {
+        path: "/project4",
+        element: <Project4></Project4>,
       }
     ]
   },
