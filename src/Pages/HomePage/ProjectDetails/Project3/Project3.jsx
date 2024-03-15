@@ -1,7 +1,7 @@
 import Footer from "../../Footer/Footer";
 import Navbar from "../../Navbar/Navbar";
 
-const Project2 = () => {
+const Project3 = () => {
     return (
         <div className="bg-slate-50">
             <Navbar></Navbar>
@@ -9,8 +9,8 @@ const Project2 = () => {
                 <div className="hero-overlay bg-opacity-10"></div>
                 <div className="hero-content text-center">
                     <div className="lg:max-w-2xl">
-                        <h1 className="mb-5 text-5xl font-bold">SkillNest Academy</h1>
-                        <p className="mb-5 text-xl">SkillNest Academy is your gateway to acquiring new skills. Dive into a world of online courses where you can master web development, digital marketing, graphic design, data science, and language learning.</p>
+                        <h1 className="mb-5 text-5xl font-bold">Classy Closet</h1>
+                        <p className="mb-5 text-xl">ClassyCloset is your go-to destination for fashion and apparel. Discover curated collections of clothing, accessories, and more.</p>
                     </div>
                 </div>
             </div>
@@ -18,15 +18,15 @@ const Project2 = () => {
                 <div className="lg:w-1/2">
                     <h2 className="text-3xl font-semibold mb-5">Project Overview</h2>
                     <p className="text-justify">
-                        SkillNest Academy is an online learning hub where anyone can explore and master a wide range of skills. Whether it's building websites, understanding marketing strategies, or creating stunning designs, SkillNest has something for everyone.
+                        We're your go-to place for all things fashion. From stylish clothes to cool accessories, trendy bags, and even perfumes, we've got it all covered.
 
-                        Admins play a vital role in managing users and ensuring the integrity of teacher and course requests. They keep the platform running smoothly and safely.
+                        This website is super easy to use. Just click around to explore different categories and find the perfect outfit or accessory for any occasion. And if you see something you like, just click "Add to Cart" to buy it.
 
-                        Teachers have the opportunity to create and manage their own courses, sharing their knowledge with eager learners worldwide. Students can freely browse through various courses and enroll in the ones that pique their interest.
+                        Want to know what's hot right now? Check out my "Most Loved" section to see what other people are raving about. You might just find your new favorite item!
 
-                        With a user-friendly dashboard designed for different roles, SkillNest ensures that admins, teachers, and students can easily navigate the platform and access the tools they need.
+                        Got something awesome to share? You can add your own products to our site and even edit the details to make sure everything's just right.
 
-                        SkillNest is dedicated to empowering individuals with the skills they need to succeed in today's fast-paced world. Whether you're a lifelong learner or a passionate educator, SkillNest provides the platform to explore, learn, and grow.
+                        At Classy Closet, we're all about making fashion fun and accessible for everyone. So come on in, take a look around, and let's start styling!
                     </p>
                     <div className="my-10">
                         <h2 className="text-2xl font-semibold mb-5">Technologies Used</h2>
@@ -40,15 +40,15 @@ const Project2 = () => {
                     </div>
                     <div>
                         <h2 className="text-2xl font-semibold mb-5">Live Link</h2>
-                        <a href="https://classmanagement-8dd56.web.app" target="_blank" rel="noopener noreferrer">
+                        <a href="https://brandshop-bdf06.web.app" target="_blank" rel="noopener noreferrer">
                             <button className="btn bg-cyan-500 hover:bg-cyan-600 text-white rounded-sm">Visit Project</button>
                         </a>
                     </div>
                 </div>
                 <div className="lg:w-2/5">
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/XtTXdVh/Screenshot-2024-03-15-201328.png" alt="" />
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/0r2n2km/Screenshot-2024-03-15-201639.png" alt="" />
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/Brcgvs6/Screenshot-2024-03-15-202031.png" alt="" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/MnLS4rY/Screenshot-2024-03-07-230802.png" alt="" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/sRFcWBv/Screenshot-2024-03-07-231050.png" alt="" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/rfzDCdn/Screenshot-2024-03-07-231309.png" alt="" />
                 </div>
             </div>
             <Footer></Footer>
@@ -56,4 +56,4 @@ const Project2 = () => {
     );
 };
 
-export default Project2;
+export default Project3;
