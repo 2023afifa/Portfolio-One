@@ -13,13 +13,20 @@ const Footer = () => {
                 <nav>
                     <header className="footer-title">Social</header>
                     <div className="grid grid-flow-col gap-4">
-                        <a href="https://github.com/2023afifa"><FaGithub className="text-3xl" /></a>
-                        <a href=""><FaLinkedinIn className="text-3xl" /></a>
-                        <a href="https://t.me/afifazzz"><FaTelegram className="text-3xl" /></a>
+                        <a href="https://github.com/2023afifa" target="_blank" rel="noopener noreferrer">
+                            <FaGithub className="text-3xl" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/afifa-a-a57b112b8" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedinIn className="text-3xl" />
+                        </a>
+                        <a href="https://t.me/afifazzz" target="_blank" rel="noopener noreferrer">
+                            <FaTelegram className="text-3xl" />
+                        </a>
                     </div>
                 </nav>
             </footer>
-            <footer className="footer footer-center p-10 bg-black text-slate-200">
+            <hr />
+            <footer className="footer footer-center py-5 bg-black text-slate-200">
                 <aside>
                     <p>Copyright © {currentYear} - All right reserved by Afifa</p>
                 </aside>
