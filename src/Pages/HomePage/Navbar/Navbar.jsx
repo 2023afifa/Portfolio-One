@@ -5,7 +5,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="navbar md:px-5 lg:px-10 bg-slate-50 fixed z-10">
+            <div className="navbar md:px-5 lg:px-10 bg-slate-50 fixed top-0 left-0 z-10">
                 <div className="md:navbar-start">
                     <div className="flex-1">
                         <h2 className="text-3xl font-bold">AFIFA ALAMGIR</h2>
