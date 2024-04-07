@@ -1,6 +1,15 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
+
     return (
-        <div className="pt-36 pb-5 lg:px-60 bg-slate-50">
+        <div className="pt-36 pb-5 lg:px-60 bg-slate-50" data-aos="zoom-in" data-aos-duration="2000">
             <h2 className="text-3xl text-center font-semibold mb-3">About Me</h2>
             <div className="bg-cyan-500 h-2 w-12 rounded-2xl mx-auto"></div>
             <p className="text-lg text-justify mx-5  md:mx-8 lg:mx-3 my-6">
