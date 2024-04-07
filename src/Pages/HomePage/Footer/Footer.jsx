@@ -5,22 +5,22 @@ const Footer = () => {
 
     return (
         <div>
-            <footer className="footer bg-black text-slate-200 py-10">
-                <aside className="md:px-10 lg:px-20">
-                    <p className="font-bold md:text-xl lg:text-3xl">Afifa Alamgir</p>
-                    <p className="text-sm md:max-w-lg lg:max-w-xl">A frontend developer with a passion for crafting engaging user experiences through the art of coding</p>
+            <footer className="footer bg-black text-slate-200 py-10 px-10 lg:px-20">
+                <aside>
+                    <p className="font-bold text-xl lg:text-3xl">Afifa Alamgir</p>
+                    <p className="text-xs md:text-sm max-w-xs md:max-w-lg lg:max-w-xl">A frontend developer with a passion for crafting engaging user experiences through the art of coding</p>
                 </aside>
-                <nav className="lg:mx-auto">
+                <nav>
                     <header className="footer-title">Social</header>
                     <div className="grid grid-flow-col gap-4">
                         <a href="https://github.com/2023afifa" target="_blank" rel="noopener noreferrer">
-                            <FaGithub className="md:text-xl lg:text-3xl" />
+                            <FaGithub className="text-xl lg:text-3xl" />
                         </a>
                         <a href="https://www.linkedin.com/in/afifa-a-a57b112b8" target="_blank" rel="noopener noreferrer">
-                            <FaLinkedinIn className="md:text-xl lg:text-3xl" />
+                            <FaLinkedinIn className="text-xl lg:text-3xl" />
                         </a>
                         <a href="https://t.me/afifazzz" target="_blank" rel="noopener noreferrer">
-                            <FaTelegram className="md:text-xl lg:text-3xl" />
+                            <FaTelegram className="text-xl lg:text-3xl" />
                         </a>
                     </div>
                 </nav>
