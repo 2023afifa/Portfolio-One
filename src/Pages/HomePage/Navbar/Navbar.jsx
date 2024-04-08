@@ -21,7 +21,7 @@ const Navbar = () => {
                             <li><Link to="about" spy={true} smooth={true} offset={-80} duration={500} activeClass="active">About</Link></li>
                             <li><Link to="project" spy={true} smooth={true} offset={-80} duration={500} activeClass="active">Projects</Link></li>
                             <li><Link to="contact" spy={true} smooth={true} offset={-80} duration={500} activeClass="active">Contact</Link></li>
-                            <li><a href="https://drive.google.com/uc?export=download&id=1de86_vdUeL-Pz-RbK9APQzxpxETHh83Y" download>Resume</a></li>
+                            <li><a href="https://drive.google.com/uc?export=download&id=1zAmAcCqX88nmrlHE61JHZ9lmaKhNKn3R" download>Resume</a></li>
                         </ul>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const Navbar = () => {
                             <li><Link to="about" spy={true} smooth={true} offset={-80} duration={500} activeClass="active">About</Link></li>
                             <li><Link to="project" spy={true} smooth={true} offset={-80} duration={500} activeClass="active">Projects</Link></li>
                             <li><Link to="contact" spy={true} smooth={true} offset={-80} duration={500} activeClass="active">Contact</Link></li>
-                            <li><a href="https://drive.google.com/uc?export=download&id=1de86_vdUeL-Pz-RbK9APQzxpxETHh83Y" download>Resume</a></li>
+                            <li><a href="https://drive.google.com/uc?export=download&id=1zAmAcCqX88nmrlHE61JHZ9lmaKhNKn3R" download>Resume</a></li>
                         </ul>
                     </div>
                 </div>
