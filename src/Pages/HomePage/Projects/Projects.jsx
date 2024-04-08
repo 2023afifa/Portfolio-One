@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 
 
 const Projects = () => {
+    
     useEffect(() => {
         AOS.init();
     }, []);

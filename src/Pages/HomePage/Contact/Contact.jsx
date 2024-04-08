@@ -1,5 +1,9 @@
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const Contact = () => {
     const form = useRef();
@@ -15,6 +19,10 @@ const Contact = () => {
             });
     };
 
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
 
     return (
         <div className="lg:mx-20 mb-20">
@@ -24,7 +32,7 @@ const Contact = () => {
                     <div>
                         <h2 className="text-3xl font-bold mt-10 mb-3 text-center">Contact</h2>
                         <p className="mb-8 text-center font-semibold">Feel free to reach out — I'd love to connect with you! Looking forward to hearing from you!</p>
-                        <div className='flex justify-center'>
+                        <div className='flex justify-center' data-aos="fade-up" data-aos-duration="2000">
                             <form ref={form} onSubmit={sendEmail} className='w-2/3 mb-10'>
                                 <label className='mr-2 text-xl'>Name</label><br />
                                 <input className='mb-5 p-3 w-full' type="text" name="user_name" placeholder='Enter Your Name' /><br />
