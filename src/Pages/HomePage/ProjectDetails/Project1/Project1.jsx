@@ -1,13 +1,22 @@
 import Footer from "../../Footer/Footer";
 import Navbar from "../../Navbar/Navbar";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project1 = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
+
     return (
         <div className="bg-slate-50">
             <Navbar></Navbar>
-            <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/m8JWYDX/5667004.jpg)' }}>
+            <div className="hero mt-20" style={{ backgroundImage: 'url(https://i.ibb.co/h19hPSN/4890914.jpg)' }}>
                 <div className="hero-overlay bg-opacity-10"></div>
-                <div className="hero-content text-center">
+                <div className="hero-content text-center py-24">
                     <div className="lg:max-w-2xl">
                         <h1 className="mb-5 text-5xl font-bold">Pet Zone(Team Project)</h1>
                         <p className="mb-5 text-xl">Created an intuitive pet adoption and sales platform, offering users the ability to buy, sell, and discover pet accessories.</p>
@@ -42,9 +51,9 @@ const Project1 = () => {
                     </div>
                 </div>
                 <div className="lg:w-2/5">
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/xfbkyXj/Screenshot-2024-03-06-190807.png" alt="" />
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/HxJxd6y/Project-1-b.png" alt="" />
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/PQ3FVr9/Project-1-c.png" alt="" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/xfbkyXj/Screenshot-2024-03-06-190807.png" alt="" data-aos="fade-up" data-aos-duration="2000" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/HxJxd6y/Project-1-b.png" alt="" data-aos="fade-up" data-aos-duration="2000" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/PQ3FVr9/Project-1-c.png" alt="" data-aos="fade-up" data-aos-duration="2000" />
                 </div>
             </div>
             <Footer></Footer>

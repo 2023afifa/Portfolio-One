@@ -1,13 +1,22 @@
 import Footer from "../../Footer/Footer";
 import Navbar from "../../Navbar/Navbar";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project2 = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
+
     return (
         <div className="bg-slate-50">
             <Navbar></Navbar>
-            <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/m8JWYDX/5667004.jpg)' }}>
+            <div className="hero mt-20" style={{ backgroundImage: 'url(https://i.ibb.co/h19hPSN/4890914.jpg)' }}>
                 <div className="hero-overlay bg-opacity-10"></div>
-                <div className="hero-content text-center">
+                <div className="hero-content text-center py-24">
                     <div className="lg:max-w-2xl">
                         <h1 className="mb-5 text-5xl font-bold">SkillNest Academy</h1>
                         <p className="mb-5 text-xl">SkillNest Academy is your gateway to acquiring new skills. Dive into a world of online courses where you can master web development, digital marketing, graphic design, data science, and language learning.</p>
@@ -46,9 +55,9 @@ const Project2 = () => {
                     </div>
                 </div>
                 <div className="lg:w-2/5">
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/XtTXdVh/Screenshot-2024-03-15-201328.png" alt="" />
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/0r2n2km/Screenshot-2024-03-15-201639.png" alt="" />
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/Brcgvs6/Screenshot-2024-03-15-202031.png" alt="" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/XtTXdVh/Screenshot-2024-03-15-201328.png" alt="" data-aos="fade-up" data-aos-duration="2000" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/0r2n2km/Screenshot-2024-03-15-201639.png" alt="" data-aos="fade-up" data-aos-duration="2000" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/Brcgvs6/Screenshot-2024-03-15-202031.png" alt="" data-aos="fade-up" data-aos-duration="2000" />
                 </div>
             </div>
             <Footer></Footer>

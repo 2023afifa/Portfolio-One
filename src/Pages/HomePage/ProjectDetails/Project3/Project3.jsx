@@ -1,13 +1,22 @@
 import Footer from "../../Footer/Footer";
 import Navbar from "../../Navbar/Navbar";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project3 = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
+
     return (
         <div className="bg-slate-50">
             <Navbar></Navbar>
-            <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/m8JWYDX/5667004.jpg)' }}>
+            <div className="hero mt-20" style={{ backgroundImage: 'url(https://i.ibb.co/h19hPSN/4890914.jpg)' }}>
                 <div className="hero-overlay bg-opacity-10"></div>
-                <div className="hero-content text-center">
+                <div className="hero-content text-center py-24">
                     <div className="lg:max-w-2xl">
                         <h1 className="mb-5 text-5xl font-bold">Classy Closet</h1>
                         <p className="mb-5 text-xl">ClassyCloset is your go-to destination for fashion and apparel. Discover curated collections of clothing, accessories, and more.</p>
@@ -46,9 +55,9 @@ const Project3 = () => {
                     </div>
                 </div>
                 <div className="lg:w-2/5">
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/MnLS4rY/Screenshot-2024-03-07-230802.png" alt="" />
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/sRFcWBv/Screenshot-2024-03-07-231050.png" alt="" />
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/rfzDCdn/Screenshot-2024-03-07-231309.png" alt="" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/MnLS4rY/Screenshot-2024-03-07-230802.png" alt="" data-aos="fade-up" data-aos-duration="2000" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/sRFcWBv/Screenshot-2024-03-07-231050.png" alt="" data-aos="fade-up" data-aos-duration="2000" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/rfzDCdn/Screenshot-2024-03-07-231309.png" alt="" data-aos="fade-up" data-aos-duration="2000" />
                 </div>
             </div>
             <Footer></Footer>

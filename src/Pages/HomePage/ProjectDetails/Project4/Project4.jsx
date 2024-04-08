@@ -1,13 +1,22 @@
 import Footer from "../../Footer/Footer";
 import Navbar from "../../Navbar/Navbar";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project4 = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
+
     return (
         <div className="bg-slate-50">
             <Navbar></Navbar>
-            <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/m8JWYDX/5667004.jpg)' }}>
+            <div className="hero mt-20" style={{ backgroundImage: 'url(https://i.ibb.co/h19hPSN/4890914.jpg)' }}>
                 <div className="hero-overlay bg-opacity-10"></div>
-                <div className="hero-content text-center">
+                <div className="hero-content text-center py-24">
                     <div className="lg:max-w-2xl">
                         <h1 className="mb-5 text-5xl font-bold">ShareWithHeart</h1>
                         <p className="mb-5 text-xl">ShareWithHeart is a community-driven platform committed to reducing food waste and fighting hunger.</p>
@@ -38,9 +47,9 @@ const Project4 = () => {
                     </div>
                 </div>
                 <div className="lg:w-2/5">
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/h8gfLDx/Project-4-b.png" alt="" />
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/NrnZVyf/Project-4-c.png" alt="" />
-                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/0M4FGs4/Project-4-d.png" alt="" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/h8gfLDx/Project-4-b.png" alt="" data-aos="fade-up" data-aos-duration="2000" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/NrnZVyf/Project-4-c.png" alt="" data-aos="fade-up" data-aos-duration="2000" />
+                    <img className="w-4/5 mx-auto mb-10 rounded-sm shadow-xl" src="https://i.ibb.co/0M4FGs4/Project-4-d.png" alt="" data-aos="fade-up" data-aos-duration="2000" />
                 </div>
             </div>
             <Footer></Footer>
